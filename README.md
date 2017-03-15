@@ -2,7 +2,7 @@
 Rx wrapper for fb package
 
 ### Version
-1.0.0
+1.0.2
 
 ### Installation
 
