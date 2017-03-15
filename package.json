@@ -1,6 +1,6 @@
 {
   "name": "rx-fb",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Rx wrapper for fb package",
   "main": "index.js",
   "scripts": {
