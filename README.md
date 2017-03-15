@@ -7,15 +7,13 @@ Rx wrapper for fb package
 ### Installation
 
 ```sh
-$ npm install --save rx-fb
+$ npm install rx-fb --save
 ```
 
 ### Usage
 
 ```sh
 'use strict';
-
-require('dotenv').config({ silent: true });
 
 const RxFB = require('rx-fb')
 
@@ -26,6 +24,19 @@ let rxfb = new RxFB({
     accessToken: FACEBOOK_ACCESS_TOKEN
 });
 
+let source = rxfb.api('VasaVasaKitchen/posts');
+
+source.subscribe(
+    response => console.log(response),
+    error    => console.log(error),
+    complete => console.log('complete')
+);
+```
+
+### Avoid Pagination
+It's possible to retrive all the edge of a node using the all method
+
+```
 let source = rxfb.all('VasaVasaKitchen/posts');
 
 source.subscribe(
