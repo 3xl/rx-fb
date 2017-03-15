@@ -2,7 +2,7 @@
 
 require('dotenv').config({ silent: true });
 
-const RxFB = require('./RxFB.js')
+const RxFB = require('./index.js')
 
 let rxfb = new RxFB({
     version:     process.env.FACEBOOK_API_VERSION,
