@@ -1,0 +1,20 @@
+{
+  "name": "rx-fb",
+  "version": "1.0.0",
+  "description": "Rx wrapping of fb package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Facebook",
+    "Rx",
+    "fb"
+  ],
+  "author": "Claudio Geraci <geraciclaudio82@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "fb": "^1.1.1",
+    "rx": "^4.1.0"
+  }
+}
