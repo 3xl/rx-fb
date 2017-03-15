@@ -1,5 +1,5 @@
 # rx-fb
-Rx wrapping of fb package
+Rx wrapper for fb package
 
 ### Version
 1.0.0

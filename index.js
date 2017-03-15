@@ -5,7 +5,7 @@ const Rx  = require('rx');
 const url = require('url');
 
 /**
- * Rx wrapping of fb package
+ * Rx wrapper for fb package
  * 
  * @class RxFB
  */
