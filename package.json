@@ -6,13 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3xl/rx-fb.git"
+  },
   "keywords": [
     "Facebook",
     "Rx",
     "fb"
   ],
   "author": "Claudio Geraci <geraciclaudio82@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "fb": "^1.1.1",
     "rx": "^4.1.0"
