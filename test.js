@@ -11,7 +11,7 @@ let rxfb = new RxFB({
     accessToken: process.env.FACEBOOK_ACCESS_TOKEN
 });
 
-let source = rxfb.all('VasaVasaKitchen/posts');
+let source = rxfb.all('VasaVasaKitchen/posts', { fields: ['description', 'type', 'created_time'] });
 
 source.subscribe(
     response => console.log(response),

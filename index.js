@@ -37,7 +37,7 @@ class RxFB {
                 if(response[1].data) {
                     edgesStream = Rx.Observable.from(response[1].data);
 
-                    if(response[1].paging && response[1].paging.next != '') {
+                    if (response[1].paging && response[1].paging.next != '' && response[1].paging.next != undefined) {
                         let fields = url.parse(response[1].paging.next, true).query;
 
                         nextStream = this.all(edges, fields);

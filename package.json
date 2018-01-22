@@ -18,7 +18,7 @@
   "author": "Claudio Geraci <geraciclaudio82@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "fb": "^1.1.1",
-    "rx": "^4.1.0"
+    "fb": "1.1.1",
+    "rx": "4.1.0"
   }
 }
